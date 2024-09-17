@@ -77,7 +77,7 @@ class ComputerPlayer(Player):
             
             return score
     
-    def minimax(self, state, player, depth=8, alpha=-math.inf, beta=math.inf):
+    def minimax(self, state, player, depth=math.inf, alpha=-math.inf, beta=math.inf):
         """
         Implementa o algoritmo Minimax com poda alfa-beta para determinar o melhor movimento para o computador.
 
