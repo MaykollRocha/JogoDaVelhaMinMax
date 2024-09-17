@@ -48,7 +48,7 @@ A poda alfa-beta é uma otimização aplicada ao Minimax que reduz o número de 
    ```
 3. Execute o jogo:
    ```bash
-   python menu.py
+   python main.py
    ```
 
 ## Contribuições
