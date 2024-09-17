@@ -1,7 +1,3 @@
-Aqui está um exemplo de README para o seu repositório de jogo da velha com Minimax e poda alfa-beta:
-
----
-
 # Jogo da Velha com IA (Minimax + Poda Alfa-Beta)
 
 Este é um projeto de um jogo da velha desenvolvido em Python, utilizando o algoritmo Minimax com poda alfa-beta para o modo jogador vs computador. O jogo conta com diferentes níveis de dificuldade e uma interface gráfica simples.
