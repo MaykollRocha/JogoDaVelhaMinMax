@@ -50,7 +50,6 @@ class ComputerPlayer(Player):
         Returns:
             int: Pontuação heurística do estado.
         """
-        win_cases = [(0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6)]
         
         if state.current_winner == self.letter:  # Vitória da IA
             if state.debug_mode:
@@ -64,7 +63,7 @@ class ComputerPlayer(Player):
             return -1 * (state.num_empty_squares() + 1)
         else:
             score = 0
-            for (i, j, k) in win_cases:
+            for (i, j, k) in [(0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6)]:
                 line = [state.board[i], state.board[j], state.board[k]]
                 if line.count(self.letter) == 2 and line.count(' ') == 1:
                     score += 5  # Jogada próxima de vitória

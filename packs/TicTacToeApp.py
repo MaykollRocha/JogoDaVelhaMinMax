@@ -146,7 +146,7 @@ class TicTacToeApp:
         self.menu_frame.destroy()
         self.setup_game()
         self.computer_player_x = ComputerPlayer('X')
-        self.computer_player_o = ComputerPlayer('O')
+        self.computer_player_o = ComputerPlayer('O',)
         self.current_player = 'X'
         self.ai_vs_ai()
 
