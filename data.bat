@@ -1,5 +1,5 @@
 {
-  "nome": "Calculadora de Multiplicação em Bases Numéricas (2-10)",
+  "nome": "Jogo da Velha poda AlphaBeta - Trabalho IA",
   "infos": {
     "atividade": "Jogo da Velha algoritmo MaxMin com poda AlphaBeta",
     "dia": "Setembro de 2024"
